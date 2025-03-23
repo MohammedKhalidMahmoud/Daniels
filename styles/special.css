@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --custom-gray-color: #748182;
+    --custom-black-color: #343434;
+}
+
+.text-custom-gray{
+    color:var(--custom-gray-color)
+}
+.text-custom-black{
+    color:var(--custom-black-color)
+}
+.bg-custom-black{
+    background-color:var(--custom-black-color)
+}
+.bg-custom-gray{
+    background-color:var(--custom-gray-color)
+}
+.hero-section{
+    height:100vh;
+    background-image: url("../imgs/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.layer{
+    
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+.font-motessrat{
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.hover:hover{
+    background-color: var(--custom-black-color);
+    transition: 0.25s all;
+}
+.hover:hover i{
+    color:white;
+    transition: 0.25s all;
+}
